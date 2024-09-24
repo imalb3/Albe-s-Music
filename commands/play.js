@@ -140,7 +140,7 @@ async function play(client, interaction) {
 
 module.exports = {
     name: "play",
-    description: "Play a song from a name or link",
+    description: "Riproduci una canzone da un nome o un collegamento",
     permissions: "0x0000000000000800",
     options: [{
         name: 'name',
