@@ -23,7 +23,7 @@ const { EmbedBuilder } = require('discord.js');
 
 module.exports = {
   name: "support",
-  description: "Get support server link",
+  description: "Ottieni il collegamento al server di supporto",
   permissions: "0x0000000000000800",
   options: [],
   run: async (client, interaction) => {
