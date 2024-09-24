@@ -39,7 +39,7 @@ module.exports = {
     permissions: "0x0000000000000800",
     options: [{
         name: 'level',
-        description: 'Volume level (0-100)',
+        description: 'Livello del volume (0-100)',
         type: ApplicationCommandOptionType.Integer,
         required: true
     }],
