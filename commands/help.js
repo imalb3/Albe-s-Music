@@ -24,7 +24,7 @@ const config = require("../config.js");
 
 module.exports = {
   name: "help",
-  description: "Get information about the bot",
+  description: "Ottieni informazioni sul bot",
   permissions: "0x0000000000000800",
   options: [],
   run: async (client, interaction) => {
@@ -35,19 +35,19 @@ module.exports = {
 \`\`\`css
 Welcome to ${botName}!
 
-Your ultimate music companion on Discord. Here are the available commands:
+Il tuo compagno musicale definitivo su Discord. Ecco i comandi disponibili:
 
-[ /play    ] - Start playing the songs.
-[ /pause   ] - Pause the current song.
-[ /resume  ] - Resume the current song.
-[ /lyrics  ] - Displays the lyrics of a song.
-[ /skip    ] - Skip the current song.
-[ /stop    ] - Destroys the music player.
-[ /np      ] - Shows now playing song.
-[ /volume  ] - Sets the volume of the player.
-[ /ping    ] - Check bot latency.
-[ /support ] - Shows support server info.
-[ /help    ] - Display this help menu.
+[ /play    ] - Inizia a riprodurre le canzoni.
+[ /pause   ] - Mette in pausa il brano corrente.
+[ /resume  ] - Riprendi il brano corrente.
+[ /lyrics  ] - Visualizza il testo di una canzone.
+[ /skip    ] - Salta il brano corrente.
+[ /stop    ] - Ferma il lettore musicale.
+[ /np      ] - Mostra la canzone in riproduzione.
+[ /volume  ] - Imposta il volume del lettore.
+[ /ping    ] - Controllare la latenza del bot.
+[ /support ] - Mostra informazioni sul server di supporto.
+[ /help    ] - Visualizza questo menu di aiuto.
 \`\`\`
       `;
 
