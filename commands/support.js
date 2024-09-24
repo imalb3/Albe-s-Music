@@ -38,6 +38,7 @@ module.exports = {
               url: 'https://discord.gg/xQF9f9yUEM'
           })
             .setDescription(`➡️ **Unisciti al nostro server Discord per supporto e aggiornamenti:**\n- Discord - ${supportServerLink}\n\n➡️`)
+            .setthumbnail('https://imgur.com/sCiXLgs.png')
             .setImage('https://imgur.com/EOcIhg8.png')
             .setTimestamp();
 
