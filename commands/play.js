@@ -144,7 +144,7 @@ module.exports = {
     permissions: "0x0000000000000800",
     options: [{
         name: 'name',
-        description: 'Enter song name / link or playlist',
+        description: 'Inserisci il nome del brano/link o playlist',
         type: ApplicationCommandOptionType.String,
         required: true
     }],
