@@ -31,13 +31,13 @@ module.exports = {
 
       const supportServerLink = "https://discord.gg/Un3FzMYvKc";
         const embed = new EmbedBuilder()
-            .setColor('#b300ff')
+            .setColor('#ff4e4e')
             .setAuthor({
-              name: 'Support Server',
+              name: 'Supporto Server',
               iconURL: 'https://imgur.com/sCiXLgs.png', 
               url: 'https://discord.gg/xQF9f9yUEM'
           })
-            .setDescription(`➡️ **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n➡️`)
+            .setDescription(`➡️ **Unisciti al nostro server Discord per supporto e aggiornamenti:**\n- Discord - ${supportServerLink}\n\n➡️`)
             .setImage('https://imgur.com/EOcIhg8.png')
             .setTimestamp();
 
