@@ -163,11 +163,11 @@ async function lyrics(client, interaction) {
 
 module.exports = {
     name: "lyrics",
-    description: "Displays the lyrics of the current song",
+    description: "Visualizza il testo della canzone corrente",
     permissions: "0x0000000000000800",
     options: [{
         name: 'search',
-        description: 'Search query for lyrics',
+        description: 'Query di ricerca per testi',
         type: ApplicationCommandOptionType.String,
         required: false
     }],
