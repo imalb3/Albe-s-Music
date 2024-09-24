@@ -36,7 +36,7 @@ async function pause(client, interaction) {
 
 module.exports = {
     name: "pause",
-    description: "Pause the current song",
+    description: "Metti in pausa il brano corrente",
     permissions: "0x0000000000000800",
     options: [],
     run: pause
