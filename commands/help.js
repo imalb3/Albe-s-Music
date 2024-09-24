@@ -56,7 +56,7 @@ Il tuo compagno musicale definitivo su Discord. Ecco i comandi disponibili:
         .setTitle(`${botName} Help`)
         .setThumbnail(client.user.displayAvatarURL()) 
         .setDescription(helpDescription)
-        .setFooter({ text: `Prime Music v1.0`, iconURL: client.user.displayAvatarURL() }) 
+        .setFooter({ text: `Albe's`, iconURL: client.user.displayAvatarURL() }) 
       
 
       return interaction.reply({ embeds: [embed] });
