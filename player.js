@@ -108,10 +108,10 @@ function initializePlayer(client) {
             } else if (i.customId === 'showQueue') {
                 const queueMessage = queueNames.length > 0 ?
                     `🎵 **Now Playing:**\n${formatTrack(queueNames[0])}\n\n📜 **Queue:**\n${queueNames.slice(1).map((song, index) => `${index + 1}. ${formatTrack(song)}`).join('\n')}` :
-                    "The queue is empty.";
+                    "La coda è vuota.";
                 const queueEmbed = new EmbedBuilder()
                     .setColor(config.embedColor)
-                    .setTitle("📜 **Current Queue**")
+                    .setTitle("📜 **Coda corrente**")
                     .setDescription(queueMessage);
 
                 const sentMessage = await channel.send({ embeds: [queueEmbed] });
