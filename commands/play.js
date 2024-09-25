@@ -32,7 +32,7 @@ async function play(client, interaction) {
             const embed = new EmbedBuilder()
                 .setColor('#ff0000')
                 .setTitle('Voice Channel Required')
-                .setDescription('❌ You need to be in a voice channel to use this command.');
+                .setDescription('❌ Devi essere in un canale vocale per usare questo comando.');
 
             await interaction.reply({ embeds: [embed], ephemeral: true });
             return;
@@ -84,7 +84,7 @@ async function play(client, interaction) {
             const errorEmbed = new EmbedBuilder()
                 .setColor(config.embedColor)
                 .setTitle('Error')
-                .setDescription('❌ No results found.');
+                .setDescription('❌ Nessun risultato trovato.');
 
             await interaction.editReply({ embeds: [errorEmbed] });
             return;
@@ -100,8 +100,8 @@ async function play(client, interaction) {
                     iconURL: config.CheckmarkIcon,
                     url: config.SupportServer
                 })
-                .setDescription('**➡️ Your request has been successfully processed.**\n**➡️ Please use buttons to control playback**')
-                 .setFooter({ text: '🎶 Enjoy your music!'}),
+                .setDescription('**➡️ La tua richiesta è stata elaborata con successo.**\n**➡️ Si prega di utilizzare i pulsanti per controllare la riproduzione**')
+                 .setFooter({ text: '🎶 Goditi la tua musica!'}),
 
             new EmbedBuilder()
                 .setColor(config.embedColor)
@@ -110,8 +110,8 @@ async function play(client, interaction) {
                     iconURL: config.CheckmarkIcon,
                     url: config.SupportServer
                 })
-                .setDescription('**➡️ Your request has been successfully processed.**\n**➡️ Please use buttons to control playback**')
-                 .setFooter({ text: '🎶 Enjoy your music!'}),
+                .setDescription('**➡️ La tua richiesta è stata elaborata con successo.**\n**➡️ Si prega di utilizzare i pulsanti per controllare la riproduzione**')
+                 .setFooter({ text: '🎶 Goditi la tua musica!'}),
 
             new EmbedBuilder()
                 .setColor(config.embedColor)
@@ -120,8 +120,8 @@ async function play(client, interaction) {
                     iconURL: config.CheckmarkIcon,
                     url: config.SupportServer
                 })
-                .setDescription('**➡️ Your request has been successfully processed.**\n**➡️ Please use buttons to control playback**')
-                .setFooter({ text: '🎶 Enjoy your music!'})
+                .setDescription('**➡️ La tua richiesta è stata elaborata con successo.**\n**➡️ Si prega di utilizzare i pulsanti per controllare la riproduzione**')
+                .setFooter({ text: '🎶 Goditi la tua musica!'})
         ];
 
         const randomIndex = Math.floor(Math.random() * embeds.length);
@@ -132,7 +132,7 @@ async function play(client, interaction) {
         const errorEmbed = new EmbedBuilder()
             .setColor('#ff0000')
             .setTitle('Error')
-            .setDescription('❌ An error occurred while processing your request.');
+            .setDescription('❌ Si è verificato un errore durante l\'elaborazione della richiesta.');
 
         await interaction.editReply({ embeds: [errorEmbed] });
     }
