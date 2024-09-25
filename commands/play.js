@@ -96,7 +96,7 @@ async function play(client, interaction) {
             new EmbedBuilder()
                 .setColor(config.embedColor)
                 .setAuthor({
-                    name: 'Request Update',
+                    name: 'Richiesta Accettata',
                     iconURL: config.CheckmarkIcon,
                     url: config.SupportServer
                 })
@@ -106,7 +106,7 @@ async function play(client, interaction) {
             new EmbedBuilder()
                 .setColor(config.embedColor)
                 .setAuthor({
-                    name: 'Request Update',
+                    name: 'Richiesta Accettata',
                     iconURL: config.CheckmarkIcon,
                     url: config.SupportServer
                 })
@@ -116,7 +116,7 @@ async function play(client, interaction) {
             new EmbedBuilder()
                 .setColor(config.embedColor)
                 .setAuthor({
-                    name: 'Request Update',
+                    name: 'Richiesta Accettata',
                     iconURL: config.CheckmarkIcon,
                     url: config.SupportServer
                 })
