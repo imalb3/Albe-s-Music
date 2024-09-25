@@ -120,7 +120,7 @@ function initializePlayer(client) {
                 clearQueue(player);
                 const clearQueueEmbed = new EmbedBuilder()
                     .setColor(config.embedColor)
-                    .setTitle("🗑️ **Queue has been cleared!**")
+                    .setTitle("🗑️ **La coda è stata cancellata!!**")
                     .setTimestamp();
 
                 const sentMessage = await channel.send({ embeds: [clearQueueEmbed] });
