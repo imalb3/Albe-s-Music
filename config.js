@@ -50,7 +50,7 @@ nodes: [
     },
     {
         name: "Node #2",
-        host: "lava-all.ajieblogs.eu.org"
+        host: "lava-all.ajieblogs.eu.org",
         port: 80,
         password: "https://dsc.gg/ajidevserver",
         reconnectTimeout: 5000,
