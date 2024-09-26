@@ -107,7 +107,7 @@ function initializePlayer(client) {
                 disableLoop(player, channel);
             } else if (i.customId === 'showQueue') {
                 const queueMessage = queueNames.length > 0 ?
-                    `🎵 **Now Playing:**\n${formatTrack(queueNames[0])}\n\n📜 **Queue:**\n${queueNames.slice(1).map((song, index) => `${index + 1}. ${formatTrack(song)}`).join('\n')}` :
+                    `🎵 **In riproduzione:**\n${formatTrack(queueNames[0])}\n\n📜 **In Coda:**\n${queueNames.slice(1).map((song, index) => `${index + 1}. ${formatTrack(song)}`).join('\n')}` :
                     "La coda è vuota.";
                 const queueEmbed = new EmbedBuilder()
                     .setColor(config.embedColor)
