@@ -59,7 +59,7 @@ function initializePlayer(client) {
                 name: 'In riproduzione',
                 iconURL: config.MusicIcon
             })
-            .setDescription('🎶 **Controls:**\n 🔁 `Loop`, ❌ `Disabilita`, ⏭️ `Salta`, 📜 `In coda`, 🗑️ `Pulisci`\n ⏹️ `Stop`, ⏸️ `Pausa`, ▶️ `Riprendi`, 🔊 `Volume +`, 🔉 `Volume -`')
+            .setDescription('🎶 **Controlli:**\n 🔁 `Loop`, ❌ `Disabilita`, ⏭️ `Salta`, 📜 `In coda`, 🗑️ `Pulisci`\n ⏹️ `Stop`, ⏸️ `Pausa`, ▶️ `Riprendi`, 🔊 `Volume +`, 🔉 `Volume -`')
             .setImage('attachment://musicard.png')
             .setColor(config.embedColor);
 
