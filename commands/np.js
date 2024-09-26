@@ -22,7 +22,7 @@ async function nowPlaying(client, interaction) {
             const errorEmbed = new EmbedBuilder()
                 .setColor('#ff0000')
                 .setTitle('Error')
-                .setDescription('❌ There is no song currently playing.');
+                .setDescription('❌ Non c\'è nessuna canzone in riproduzione al momento.');
 
             await interaction.reply({ embeds: [errorEmbed], ephemeral: true });
             return;
@@ -44,7 +44,7 @@ async function nowPlaying(client, interaction) {
         const errorEmbed = new EmbedBuilder()
             .setColor('#ff0000')
             .setTitle('Error')
-            .setDescription('❌ An error occurred while processing your request.');
+            .setDescription('❌ Si è verificato un errore durante l\'elaborazione della richiesta.');
 
         await interaction.reply({ embeds: [errorEmbed], ephemeral: true });
     }
