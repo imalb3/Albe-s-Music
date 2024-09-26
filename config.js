@@ -38,19 +38,10 @@ module.exports = {
 
    // Lavalink Server Details
 
-nodes: [
+  nodes: [
     {
         name: "Node #1",
-        host: "v3.lavalink.rocks",
-        port: 443,
-        password: "horizxon.tech",
-        reconnectTimeout: 5000,
-        reconnectTries: Infinity,
-        secure: true
-    },
-    {
-        name: "Node #2",
-        host: "lava-all.ajieblogs.eu.org",
+        host: "lava-v3.ajieblogs.eu.org",
         port: 80,
         password: "https://dsc.gg/ajidevserver",
         reconnectTimeout: 5000,
