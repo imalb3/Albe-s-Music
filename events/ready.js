@@ -33,9 +33,9 @@ module.exports = async (client) => {
             await rest.put(Routes.applicationCommands(client.user.id), {
                 body: await client.commands,
             });
-            console.log('\x1b[36m%s\x1b[0m', '|    🚀 Commands Loaded successfully!');
+            console.log('\x1b[36m%s\x1b[0m', '|    🚀 Comandi caricati correttamente!');
         } catch (err) {
-            console.log('\x1b[36m%s\x1b[0m', '|    ❌ Commands Failed To Load!');
+            console.log('\x1b[36m%s\x1b[0m', '|    ❌ Impossibile caricare i comandi!');
         }
     })();
 
