@@ -9,7 +9,7 @@ async function stop(client, interaction) {
             const errorEmbed = new EmbedBuilder()
                 .setColor('#ff0000')
                 .setTitle('Error')
-                .setDescription('❌ No active player found.');
+                .setDescription('❌ Nessun giocatore attivo trovato.');
 
             await interaction.reply({ embeds: [errorEmbed], ephemeral: true });
             return;
@@ -20,7 +20,7 @@ async function stop(client, interaction) {
 
         const embed = new EmbedBuilder()
             .setColor(config.embedColor)
-            .setDescription('**⏹️ Playback has been stopped and player destroyed!**');
+            .setDescription('**⏹️ La riproduzione è stata interrotta e il lettore è stato distrutto!**');
 
         await interaction.reply({ embeds: [embed] });
 
@@ -29,7 +29,7 @@ async function stop(client, interaction) {
         const errorEmbed = new EmbedBuilder()
             .setColor('#ff0000')
             .setTitle('Error')
-            .setDescription('❌ An error occurred while processing your request.');
+            .setDescription('❌ Si è verificato un errore durante l\'elaborazione della richiesta.');
 
         await interaction.reply({ embeds: [errorEmbed], ephemeral: true });
     }
