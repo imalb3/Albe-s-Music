@@ -77,12 +77,12 @@ async function lyrics(client, interaction) {
                     });
             }
         } catch (err) {
-            lyricEmbed.setDescription(`❌ No lyrics were found!`);
+            lyricEmbed.setDescription(`❌ Nessun testo trovato!`);
             return interaction.editReply({ embeds: [lyricEmbed], ephemeral: true });
         }
 
         if (!lyricSong) {
-            lyricEmbed.setDescription(`❌ No lyrics were found!`);
+            lyricEmbed.setDescription(`❌ Nessun testo trovato!`);
             return interaction.editReply({ embeds: [lyricEmbed], ephemeral: true });
         }
 
@@ -157,7 +157,7 @@ async function lyrics(client, interaction) {
 
     } catch (error) {
         console.error('Error fetching lyrics:', error);
-        await interaction.editReply({ content: 'An error occurred while fetching the lyrics.', ephemeral: true });
+        await interaction.editReply({ content: 'Si è verificato un errore durante il recupero del testo.', ephemeral: true });
     }
 }
 
